@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+      <title>Ryan Novelli's IT162 Portal Website</title>
+      <meta name="robots" content="noindex,nofollow" />
+      <meta name="viewport" content="width=device-width" />
+      <meta charset="utf-8" />
+      <script src="https://use.fontawesome.com/6a71565c22.js"></script>
+      <link rel="stylesheet" href="css/portal.css" />
+      <link rel="stylesheet" href="css/nav.css" />
+      <link rel="stylesheet" href="css/forms.css" />
+ </head>
+ 
+ <body>
+     <header>
+     <h1><a href="index.php"><i class="logo fa fa-home"></i> Ryan Novelli's IT162 Portal Website</a></h1>
+     <nav class="topnav" id="myTopnav">
+       <a href="index.php" class="active">About</a>
+       <a href="big/index.php">Big</a>
+       <a href="aia.php">AIA</a>
+       <a href="flowchart.php">Flowchart/Layout</a>
+       <a href="fp/index.php">Final Project</a>
+       <a href="contactme.php">Contact Ryan</a>
+       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+     </nav>
+     </header>
+     
+   <main class="wrapper">
+     
+     <img class="desktop" src="images/desktop.jpg" alt="Photo of me tracking guitar in recording studio" />
+       
+     <img class="tablet" src="images/tablet.jpg" alt="Photo I took of a Mid-Century Modern house in Palm Springs" />
+       
+     <img class="phone" src="images/phone.jpg" alt="Photo of me DJing a 4th of July front yard party" />
+       
+       <h2 class="subheader">About the Author:</h2>
+       
+       <p>I'm a guitar player, songwriter, touring musician, record collector, and DJ, with a deep interest in all things Mid-Century. I'm currently in the process of getting my Italian passport with the goal of living between the Pacific Northwest and somewhere in the EU (most likely Italy), or perhaps the UK.</p>
+       
+       <p>My primary goal for learning web development is to assist fellow artists, musicians, independent venues and record labels in fulfilling IT-related requirements necessary to succeed in today's market, as well as having the ability to independently generate revenue remotely, from anywhere in the world.</p>
+       
+     
+    <footer>
+      <p><small>&copy; 2021 by <a href="contact.php">Ryan Novelli</a>, All Rights Reserved ~ <a href="https://validator.w3.org/check?uri=referer" target="_blank">Valid HTML</a> ~ <a href="https://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
+    </footer>
+  </main>
+     
+  <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+     
+  <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }   
+  </script>
+     
+ </body>
+</html>
