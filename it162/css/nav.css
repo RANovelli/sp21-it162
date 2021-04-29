@@ -3,6 +3,8 @@
     margin: auto;
     background-color: black;
     overflow: auto;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 
 .topnav a {
@@ -16,8 +18,8 @@
     font-size: 16px;
 }
 
-.topnav a.hover {
-    background-color: darkcyan;
+.topnav a.hover, .active {
+    background-color: #cc8400;
 }
 
 .topnav .icon {

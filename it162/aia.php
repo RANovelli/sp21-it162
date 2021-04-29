@@ -2,8 +2,11 @@
      
      
        
-       <h2 class="subheader">AIA</h2>
-     <p>Use this as a model for creating additional pages</p>  
-       
+       <h2 class="subheader">Audience, Issues, and Approach</h2>
+     <p>Provide two resource links to client surveys</p>  
+     <ul>
+        <li>this is a web client survey resource</li>
+        <li>this is a web client survey resource</li>
+     </ul>     
        
 <?php include "includes/footer.php";?>

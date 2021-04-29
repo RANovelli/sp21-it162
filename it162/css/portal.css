@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 html {
-    background-color: #206040;
+    background-color: #8b0000;
     font-family: 'Quicksand', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
@@ -17,13 +17,21 @@ html {
 h1 {
     font-weight: normal;
     margin: auto;
-    background: #1e90ff;
+    background: #ffffd4;
     line-height: 2.5em;
+    border: 2px solid black;
+    border-bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 main.wrapper {
-    background-color: #1e90ff;
+    background-color: #ffffd4;
     overflow: auto;
+    border: 2px solid black;
+    border-top: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 p {
@@ -38,7 +46,7 @@ h2, h3 {
 }
 
 a {
-    color:black;
+    color:#000;
     text-decoration: none;
 }
 
@@ -52,6 +60,14 @@ footer {
     clear: both;
     text-align: center;
     padding: 1em;
+}
+
+/* font awesome icon styles */
+i.fas {
+    color:#8b0000; /* a less boring color */
+    text-shadow:1px 1px #000; /* gives the icon a little depth */
+    font-size:1.25em; /* font awesome icons are text, so make it a bit bigger */
+    margin-left:1%; /* this keeps the icon from being squeeezed to the left */
 }
 
 /* Responsive rules */
