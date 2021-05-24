@@ -1,0 +1,17 @@
+<?php include "includes/header.php";?>    
+
+    <p>Adding a photo gallery to your site will make the page more attractive and increase the time visitors spend on your page. Great pictures also promote engagement, sharing, and comments. If your site is HTML-based, making sure the gallery is HTML compatible will ensure reliable performance with a smooth and fast presentation. Ionos.com states, “Large blocks of text can often scare visitors off before they even read the content. Graphics and images are hugely important elements of any website, whether they’re used to illustrate a text, create a personal or emotional bond with the user, or visualize the details of a product. (Ionos.com)” There are many options to choose from, a lot of them free, to assist in achieving this goal.</p>
+    <p>Nancy Young on the Honkiat.com blog says, “Image galleries and sliders are among the most popular use cases of jQuery. They allow you to present the right amount of visual information to your visitors while saving valuable space on your website. As a result, your page will look less cluttered but you can still add all the images you need to convey your message. (Young)” One of the most popular jQuery plug-ins is Bootstrap. You can add images, videos, thumbnails, text, and/or buttons; it’s mobile-friendly and looks great on any browser. Ashutosh KS on the Honkiat.com blog adds, “Bootstrap Gallery is a simple gallery creator free for both personal and commercial use, and includes a masonry layout grid and lightbox modal. What interested me is, you can add tags to your image galleries along with support for photos and videos. Moreover, it avails many customization options including options to change colors, and titles, etc. (KS)” Another option is Photosnack, which supports uploading from photo storage and social media services like Google Photos, Facebook, Instagram, etc. After creating a slideshow, simply embed the code on your blog or site. You can choose a style from its set of templates and share the slideshow directly with your social media friends in few clicks.</p>
+    <p>There are more than enough options to choose from with a little research to see what appeals to your particular needs. There are lots of sites available to assist with the setup and suggestions; Codrops is a great site to find development tutorials and resources. Whichever program you decide on, you can be sure that a gallery will add texture and depth to the user experience.</p>
+</section>
+<!-- END LEFT COL -->
+
+<!-- START RIGHT COL -->
+<aside>
+ <h3>Citations</h3>
+    <p>Ionos by 1x1. “Web Design Basics: Creating a Photo Gallery for Your Website.” IONOS Digitalguide, 9 Sept. 2020 <a href="https://www.ionos.com/digitalguide/websites/web-design/how-to-create-a-photo-gallery-for-your-website" target="_blank">Ionos.com</a></p>
+    <p>Young, Nancy. “Free JQuery Image Galleries &amp; Sliders - Best Of.” Hongkiat, 25 Apr. 2018 <a href="https://www.hongkiat.com/blog/jquery-image-galleries-sliders-best-of" target="_blank">Hongkiat Blog</a></p>
+    <p>KS, Ashutosh. “20 Responsive Image Galleries and Slideshows (2018).” Hongkiat, 26 June 2020 <a href="https://www.hongkiat.com/blog/free-responsive-image-gallery" target="_blank">Hongkiat Blog</a></p>
+</aside>
+<!-- END RIGHT COL -->
+<?php include "includes/footer.php";?>

@@ -1,0 +1,152 @@
+/* BIG IT162 */
+
+* {
+    margin:0;
+    padding:0;
+}
+
+html,body {
+    background-color:darkred;
+    font-family: 'Oswald', sans-serif;
+}
+
+#main_header {
+    text-decoration: none;
+}
+
+div.wrapper,footer {
+    width:90%;
+    margin:auto;
+    background-color:lightskyblue;
+    overflow:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    border: 2px solid gold;
+    border-radius: 20px;
+}
+
+section {
+    float:left;
+    width:64%;
+    padding-left:2.5%;
+}
+
+aside {
+    float:right;
+    width:26%;
+    padding-right:2.5%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border: 2px solid darkred;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+
+.address,.phone {
+    padding-left: 10px;
+}
+
+.mars {
+    margin-left: 25px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    padding:.5em;
+}
+
+h1 {
+    text-align:center;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    margin:1em .8em;
+}
+
+div.dot iframe {
+    border:0;
+    overflow:hidden;
+}
+
+/* START Global Embed Responsively Rules! */
+div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+} 
+
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div.embed-container.agenda-view {
+    display:none;
+}
+
+/* END Global Embed Responsively Rules! */
+
+footer {
+    text-align:center;
+    text-transform:uppercase;
+    clear:both;
+}
+
+footer p {
+    padding:2em;
+}
+
+footer a {
+    color:red;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color:white;
+    background-color:black;
+}
+    
+
+/* Phat PHONE Rules! */
+@media all and (max-width:860px) {
+    
+    div.wrapper {
+        width: 100%;
+    }
+
+    section {
+        float:none;
+        width:100%;
+        }
+
+    aside {
+        float:none;
+        width:100%;
+    }     
+    
+    
+    /* Show Agenda View Calendar */
+    div.embed-container.agenda-view {
+        display:block;
+    }
+    
+    /* Hide Month View Calendar */
+    div.embed-container.month-view {
+        display:none;
+    }
+}
+
+
