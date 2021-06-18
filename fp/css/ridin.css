@@ -1,0 +1,106 @@
+/* Ridin' Home Website */
+
+html {
+    background-color:#654321;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    background-color:#fffeea;
+    color:#141100;
+    width:80%;
+    margin:auto;
+    border:3px solid #cc5500;
+    border-radius: 10px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.subheader {
+    text-align: center;
+    color:#ffd700;
+    text-decoration: underline;
+}
+
+.wild-angels {
+    width:90%;
+    border:2px solid #00ced1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    margin: 1em 1em;
+}
+
+p a {
+    text-decoration-line: underline;
+}
+
+p a:hover {
+    color: #cc5500;
+}
+
+section {
+    margin: auto;
+    width:90%;
+    text-align: center;
+}
+
+h3 a {
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+    color:#ffd700;
+}
+
+.form {
+    width:90%;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.fullwidth {
+    width:100%;
+}
+
+div.gallery {
+    text-align:center;
+}
+
+figure {
+    display:inline-block;
+    margin:.25%;
+}
+
+footer {
+    padding:1em;
+    text-align:center;
+    clear:both;
+}
+
+/* MOBILE STYLES */
+
+@media all and (max-width:600px) {
+    
+    main {
+        width:100%;
+    }
+    
+    section {
+        float:none;
+        width:100%;
+    }
+
+    aside {
+        float:none;
+        width:100%;
+    } 
+}
